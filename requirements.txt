@@ -1,5 +1,6 @@
-streamlit==1.46.1
+streamlit==1.25.0          # downgraded for numpy compatibility
 TTS==0.22.0
-torch==2.1.0
-torchaudio==2.1.0
+torch==2.1.0               # upgraded to match TTS requirement
+torchaudio==2.1.0          # same version as torch
 ffmpeg-python
+numpy==1.22.0              # pinned to avoid TTS conflict
